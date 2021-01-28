@@ -1,0 +1,87 @@
+body {
+	font-family: "Berlin Sans FB", Arial, Helvetica, sans-serif;
+	background-color: #e08e40;
+}
+
+.underline:hover {
+	text-decoration: underline;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 1424px;
+	margin: auto;
+	padding: 10px;
+}
+
+header nav {
+	float: right;
+	padding: 25px 25px 0 0;
+}
+
+header nav li {
+	display: inline;
+	padding: 0 0 0 40px;
+}
+
+section {
+	margin: auto;
+	position: relative;
+	width: 1444px;
+	height: 350px;
+}
+
+section .img1 {
+	position: absolute;
+	top: -10%;
+	left: 48%;
+}
+
+section .img2 {
+	position: absolute;
+	top: -10%;
+	left: 70%;
+}
+
+section p {
+	font-size: 25px;
+	margin: 65px 800px 0 80px;
+}
+
+section a {
+	text-decoration: none;
+	color: #800000;
+	font-weight: bold;
+}
+
+footer {
+	position: relative;
+	width: 1424px;
+	margin: auto;
+	padding: 25px 0 80px 0;
+	font-size: 20px;
+}
+
+footer ul {
+	list-style-type: none;
+	float: left;
+	display: inline;
+	padding: 0 0 25px 200px;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+

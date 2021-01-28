@@ -1,0 +1,117 @@
+body {
+	font-family: "Berlin Sans FB", Arial, Helvetica, sans-serif;
+	background-color: #e08e40;
+}
+
+.underline:hover {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 28px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 1424px;
+	margin: auto;
+	padding: 10px;
+}
+
+header nav {
+	float: right;
+	padding: 25px 25px 0 0;
+}
+
+header nav li {
+	display: inline;
+	padding: 0 0 0 40px;
+}
+
+section {
+	margin: auto;
+	width: 1444px;
+	height: 600px;
+	position: relative;
+}
+
+#image {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+#price {
+	position: absolute;
+	padding: 0 30px 0 30px;
+	font-size: 20px;	
+	top: 66%;
+	left: 39%;
+	z-index: -1;
+}
+
+h1 {
+	position: absolute;
+	top: 18%;
+	left: 31%;
+	width: 275px;
+	height: 130px;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: normal;
+
+}
+
+#buy-button {
+	top: 56%;
+	left: 32%;
+	color: black;
+	position: absolute;
+	padding: 0 120px 0 120px;
+	border: 1px solid grey;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#buy-button:hover {
+	border: 1px solid black;
+}
+
+.nutrition-facts {
+	position: absolute;
+	top: 8%;
+	right: 10%;
+}
+
+footer {
+	position: relative;
+	width: 1424px;
+	margin: auto;
+	padding: 25px 0 80px 0;
+	font-size: 20px;
+}
+
+footer ul {
+	list-style-type: none;
+	float: left;
+	display: inline;
+	padding: 0 0 25px 200px;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
